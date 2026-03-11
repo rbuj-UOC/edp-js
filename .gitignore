@@ -1,0 +1,10 @@
+# IntelliJ IDEA files:
+.idea
+
+# Python environment files:
+venv
+.python-version
+
+# Jupyter Notebook files:
+.DS_Store
+.ipynb_checkpoints

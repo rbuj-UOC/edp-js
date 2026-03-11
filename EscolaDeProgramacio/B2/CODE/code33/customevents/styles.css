@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#products {
+  background-color: lightblue;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#products .product {
+  margin: 0.5rem 0;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+#products .product .add {
+  border: 0;
+  padding: 0.75rem 2rem;
+  background-color: steelblue;
+  color: white;
+  cursor: pointer;
+}
+
+#shopping-cart {
+  background-color: lightgoldenrodyellow;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#shopping-cart ul {
+  margin: 1rem;
+  font-weight: bold;
+}
+
+#shopping-cart ul li {
+  margin: 0.5rem 0;
+}
